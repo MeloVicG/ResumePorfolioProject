@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+body{
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm53-tong-14-brushtexture-luxury_3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=1f7e4d978ab280b0cb02e65ac78cd732");
+}
+
+.containers, footer {
+    border:black 2px solid;
+    box-shadow: 7px 10px;
+    background-color: rgb(234,234,234);
+    /* crumbled paper */
+    background-image: url("https://mcdn.wallpapersafari.com/medium/37/97/RDSUQr.jpg");
+}
+/* @redline@ */
+/* body * {
+    border: 1px red solid
+} */
+
+h1{
+    color:green;
+}
+
+/* ------------------------------------------------------ */
+h3, h2 {
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------ */
+/* .topSide-box{
+    display:flex;
+} */
+
+.profile-heading{
+    display:flex;
+    justify-content: center;
+    justify-content:space-around;
+    /* justify-content: */
+    margin: 10px 100px;
+    /* padding: 100px 100px; */
+}
+
+.info-detail{
+    margin-top: 50px;
+    border-bottom: 2px solid blue;
+    
+}
+
+.profilePic{
+    width:30%;
+    border-radius: 75px;
+    border:2px solid blue;
+}
+
+.navigationBar {
+    border: 2px black solid;
+    box-shadow: 7px 10px;
+    background-color: rgb(21,241,3);
+    margin: 40px 0px;
+    margin-left: 100px;
+    margin-right: 10px;
+    padding: 15px;
+    /* font-size: 20px; */
+}
+
+p{
+    font-family: Georgia, serif;
+}
+    nav h5{
+        font-size: 25px;
+        font-family:Brush Script MT, Brush Script Std, cursive;
+        font-weight: bold ;
+    }
+
+.summaries{
+    text-align: center;
+}
+
+/* ======================================================= */
+
+.topProject-box{
+    display:flex;
+}
+
+.projectSummary{
+    margin-left: 50px;
+    margin-right: 300px;
+}
+
+.projectPic{
+    border:blue solid 3px;
+    margin-right: 100px;
+}
