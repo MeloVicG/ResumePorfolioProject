@@ -31,7 +31,7 @@ namespace ResumePorfolio.Controllers
         }
     //--------------------------------------------------------
     //--------------------------------------------------------
-        [HttpGet("home")]
+        [HttpGet("")]
         public IActionResult HomePage()
         {
             return View();

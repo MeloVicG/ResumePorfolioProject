@@ -16,28 +16,67 @@
     <div class="containers">
         <nav class="navigationBar">
             <h5>
-                <a href="home">Home</a> |
+                <a href="/">Home</a> |
                 Projects |
-                @* <a href="resume">Resume</a> | *@
-                <a href="features">Features</a>
+                <a href="resume">Resume</a> 
+                @* <a href="features">Features</a> *@
             </h5>
         </nav>
-        <h1>need to put model of projects here </h1>
+        <h1 class="pageTitle" style="text-align:center">Projects</h1>
         <div class="topProject-box">
             <div class="projectSummary">
-                <h3>alinks go here for project title - forloop looping through projects</h3>
-                <p>Project Summary here Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint pariatur natus
-                    harum blanditiis explicabo nisi tempore illum illo perferendis quod deleniti suscipit ipsum placeat
-                    quibusdam laborum, beatae numquam facilis tempora!</p>
+                @* turns off when aws turns off *@
+                <br/>
+                <a href=""><h3>StarWars Profile</h3></a> 
+                <h6>[MongoDB, Express, React, NodeJS, Material UI, Framer];</h6>
+                <br>
+                <p>This was my first project for the MERN Stack. The purpose of this project was to test my skills on everything I have Learned during my time at Coding Dojo.
+                    Using 2 separate databases, utilizing OOP, and experimenting with other libraries. This project gave me a good idea of what challenges I will be looking at in future projects.
+                </p>
+                @* <p>Testing my skills from .map to socket.io</p> *@
             </div>
             <img style="width:30%; margin-right:150px; border-radius:10px;" src="~/img/starwars_api_pic.png" alt="project image" class="projectPic">
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
-    </div>
-    <footer>
-        <h4 style="font-family: 'Akaya Kanadaka', cursive;
-    text-align: center;">Made with C# ASP.NET</h4> 
+        <div class="midProject-box">
+                <img class="projectPicMid" src="~/img/LAE_pic.png" alt="LAEpic">
+            <div class="projectSummary">
+                <a href="http://54.224.24.213/"><h3>Latinos Auto Electric</h3></a>
+                <h6>[React, MySql/Sequelize, Express, NodeJS, SaSS, Git, bootstrap, bcrypt, emailJS-com, googleAPI ]</h6>
+                <br>
+                <p>My first real project based on a friends repair shop business. Working with my partner we were able to discover just how far we can take our skills.
+                    We wanted to try and learn new ways and experiment with our skills together using Git Version control, a SQL Database, and practice all kinds of cool tricks.
+                    We have challenged each other in multiple ways and that has allowed us to grow a learn things that were not on the agenda.
+                </p>
+            </div>
+        </div>
+            <br/>
+            <br/>
+            <br/>
+
+        <div class="botProject-box">
+            <div class="projectSummary">
+                <h3>FitStacks</h3>
+                <h6>[TypeScript/Angular or Pyhton/Django?]</h6>
+                <br>
+                <p>My next project will be more to my passion for fitness. After working with my partner and learning many things from him. Id like to challenge myself using past knowledge into a new language. I have been interested in
+                    learning TypeScript for some time, I would also like to improve my python skills as well.
+                </p>
+            </div>
+                <img class="projectPicBot" src="~/img/fitstacks_wireframe_pic.png" alt="LAEpic">
+        </div>
+            <br/>
+            <br/>
+            <br/>
+
+    <footer >
+        <h4 style="font-family: 'Akaya Kanadaka', cursive;text-align: center;">Made with C# ASP.NET</h4> 
     </footer>
+    </div>
 </body>
 
 </html>
